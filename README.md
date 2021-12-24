@@ -1,8 +1,8 @@
 # Corn Leaf Infection Recognition [ON-GOING]
 
-Note: Jupyter Notebook has done and can be found in folder ```notebooks```
+__Note__: Jupyter Notebook has done and can be found in folder ```notebooks```
 
-Progres:
+__Progres__:
 - Structuring files .py into different folder
 
 __Dataset Source__:
