@@ -1,6 +1,21 @@
 from tqdm.auto import tqdm
 
 def loop_function(mode, dataset, dataloader, model, criterion, optimizer, device):
+    """_summary_
+
+    Args:
+        mode (_type_): _description_
+        dataset (_type_): _description_
+        dataloader (_type_): _description_
+        model (_type_): _description_
+        criterion (_type_): _description_
+        optimizer (_type_): _description_
+        device (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+
     if mode == "train":
         model.train()
     elif mode == "val":

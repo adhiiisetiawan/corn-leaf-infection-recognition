@@ -1,6 +1,14 @@
 import torch
 
 def check_accuracy(loader, model, device):
+    """_summary_
+
+    Args:
+        loader (_type_): _description_
+        model (_type_): _description_
+        device (_type_): _description_
+    """
+
     num_correct = 0
     num_samples = 0
     model.eval()
@@ -16,4 +24,3 @@ def check_accuracy(loader, model, device):
             num_samples += predictions.size(0)
         
         print(f'Got {num_correct} / {num_samples} with accuracy {float(num_correct)/float(num_samples)*100:.2f}') 
-        
